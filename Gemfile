@@ -39,3 +39,6 @@ group :test do
   # Pretty printed test output
   gem 'turn', '~> 0.8.3', :require => false
 end
+
+gem "devise", "1.1.5"  
+gem "cancan"

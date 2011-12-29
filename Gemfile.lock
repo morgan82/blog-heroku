@@ -31,7 +31,9 @@ GEM
       multi_json (~> 1.0)
     ansi (1.4.1)
     arel (2.2.1)
+    bcrypt-ruby (2.1.4-x86-mingw32)
     builder (3.0.0)
+    cancan (1.6.7)
     coffee-rails (3.1.1)
       coffee-script (>= 2.2.0)
       railties (~> 3.1.0)
@@ -39,6 +41,9 @@ GEM
       coffee-script-source
       execjs
     coffee-script-source (1.2.0)
+    devise (1.1.5)
+      bcrypt-ruby (~> 2.1.2)
+      warden (~> 1.0.2)
     erubis (2.7.0)
     execjs (1.2.13)
       multi_json (~> 1.0)
@@ -108,12 +113,16 @@ GEM
     uglifier (1.2.0)
       execjs (>= 0.3.0)
       multi_json (>= 1.0.2)
+    warden (1.0.6)
+      rack (>= 1.0)
 
 PLATFORMS
   x86-mingw32
 
 DEPENDENCIES
+  cancan
   coffee-rails (~> 3.1.1)
+  devise (= 1.1.5)
   jquery-rails
   pg
   rails (= 3.1.3)
