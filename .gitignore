@@ -16,3 +16,8 @@
 /nbproject/private/
 /.settings/
 /.project
+
+# Ignore folders
+log/
+tmp/
+.settings/
